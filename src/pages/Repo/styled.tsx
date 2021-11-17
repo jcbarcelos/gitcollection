@@ -6,8 +6,6 @@ export const Title = styled.div`
 
 export const Header = styled.header`
   display: flex;
-  align-items: center;
-  justify-content: space-between;
 
   a {
     display: flex;
@@ -21,6 +19,13 @@ export const Header = styled.header`
     }
     svg {
       margin-right: 4px;
+    }
+  }
+  div {
+    margin-left: 4px;
+    strong {
+    }
+    p {
     }
   }
 `;
