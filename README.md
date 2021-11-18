@@ -23,3 +23,6 @@ npm install
 ```
 
 Após essa instalação execute a aplicação com o comando `npm start`. A aplicação estará disponível no endereço `http://localhost:3000`.
+
+### Link de acesso aplicação com deploy no netlify
+https://619645cdbd21240d1c14b589--fervent-hopper-1b6cd0.netlify.app/#/
