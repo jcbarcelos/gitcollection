@@ -40,7 +40,7 @@ const Repo: React.FC = () => {
       .get(`repos/${params?.repository}/issues`)
       .then(result => setIssues(result.data))
       .catch(e => console.log(e));
-  }, []);
+  }, [params?.repository]);
 
   return (
     <>
